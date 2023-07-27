@@ -2,14 +2,10 @@
 #include <string.h>
 
 void vault() {
-  char account[10];
-  char password[256];
+  char password[0x100];
   
-  printf("Welcome to your personal vault\nAccount Number: ");
-  fgets(account, 0x10, stdin);
-
-  printf("Password: ");
-  fgets(password, 256, stdin);
+  printf("Welcome to the vault of 0x%lx\nPassword: ", &password);
+  fgets(password, 0x110, stdin);
 
   if(strncmp(password, "f8e74ee96c21b2aab1e6ef81bb548764", 32) == 0) {
     printf("Welcome:\nBalance: $14.36\nAccount Summary: You're poor\n");
