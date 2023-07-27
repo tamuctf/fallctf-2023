@@ -27,7 +27,7 @@ $(foreach var, \
 # docker
 DOCKER_CONTEXT := default
 DOCKER_GLOBAL := --context $(DOCKER_CONTEXT)
-DOCKER_RUNTIME := --memory=128m --cpus=0.2 --restart=always
+DOCKER_RUNTIME := --memory=128m --cpus=0.2 --read-only --restart=always
 
 
 # ============================================================
