@@ -62,7 +62,7 @@ http://www.tooplate.com/view/2082-pure-mix
             <div class="row">
 
               <div class="brand">
-                <a href="index.html">Pure Mix</a>
+                <a href="index.php">Pure Mix</a>
               </div>
 
               <div class="navicon">
@@ -76,10 +76,10 @@ http://www.tooplate.com/view/2082-pure-mix
                     <i class="icon ion-close-round close-iframe"></i>
                     <div class="intro-inner">
                      	<ul id="nav-menu">
-                         <li><a href="index.html">Home</a></li>
-                       	 <li><a href="about.html">About</a></li>
-                       	 <li><a href="blog.html">Blog</a></li>
-                       	 <li><a href="contact.html">Contact</a></li>
+                         <li><a href="index.php">Home</a></li>
+                       	 <li><a href="about.php">About</a></li>
+                       	 <li><a href="blog.php">Blog</a></li>
+                       	 <li><a href="contact.php">Contact</a></li>
                       </ul>
                     </div>
                   </div>

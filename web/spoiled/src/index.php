@@ -62,7 +62,7 @@ http://www.tooplate.com/view/2082-pure-mix
             <div class="row">
 
               <div class="brand">
-                <a href="index.html">Pure Mix</a>
+                <a href="index.php">Pure Mix</a>
               </div>
 
               <div class="navicon">
@@ -76,10 +76,10 @@ http://www.tooplate.com/view/2082-pure-mix
                     <i class="icon ion-close-round close-iframe"></i>
                     <div class="intro-inner">
                       <ul id="nav-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                       </ul>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img1.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project One</h2>
                                              </div>
                                        </div>
@@ -153,7 +153,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img2.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project Two</h2>
                                              </div>
                                        </div>
@@ -165,7 +165,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img3.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project Three</h2>
                                              </div>
                                        </div>
@@ -177,7 +177,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img4.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project Four</h2>
                                              </div>
                                        </div>
@@ -189,7 +189,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img5.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project Five</h2>
                                              </div>
                                        </div>
@@ -201,7 +201,7 @@ http://www.tooplate.com/view/2082-pure-mix
                                     <img src="images/portfolio-img6.jpg" class="img-responsive" alt="Portfolio">
                                        <div class="portfolio-overlay">
                                           <div class="portfolio-item">
-                                                <a href="single-project.html"><i class="fa fa-link"></i></a>
+                                                <a href="single-project.php"><i class="fa fa-link"></i></a>
                                                 <h2>Project Six</h2>
                                              </div>
                                        </div>

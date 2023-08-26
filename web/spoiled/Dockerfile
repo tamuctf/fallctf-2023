@@ -1,4 +1,4 @@
-FROM debian:buster
+FROM debian@sha256:b86bfc1dd2fb1820fea6c1e0b6e23d155198b518b3a506f6edad71bf6e9a8cef
 
 COPY flag.txt /flag.txt
 

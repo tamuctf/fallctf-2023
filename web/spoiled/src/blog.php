@@ -62,7 +62,7 @@ http://www.tooplate.com/view/2082-pure-mix
             <div class="row">
 
               <div class="brand">
-                <a href="index.html">Pure Mix</a>
+                <a href="index.php">Pure Mix</a>
               </div>
 
               <div class="navicon">
@@ -76,10 +76,10 @@ http://www.tooplate.com/view/2082-pure-mix
                     <i class="icon ion-close-round close-iframe"></i>
                     <div class="intro-inner">
                      	<ul id="nav-menu">
-                         <li><a href="index.html">Home</a></li>
-                       	 <li><a href="about.html">About</a></li>
-                       	 <li><a href="blog.html">Blog</a></li>
-                       	 <li><a href="contact.html">Contact</a></li>
+                         <li><a href="index.php">Home</a></li>
+                       	 <li><a href="about.php">About</a></li>
+                       	 <li><a href="blog.php">Blog</a></li>
+                       	 <li><a href="contact.php">Contact</a></li>
                       </ul>
                     </div>
                   </div>
@@ -121,27 +121,27 @@ http://www.tooplate.com/view/2082-pure-mix
 
          <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1s">
          	  <div class="blog-thumb">
-         		   <a href="single-post.html"><img src="images/blog-img1.jpg" class="img-responsive" alt="Blog"></a>
-         		   <a href="single-post.html"><h1>Flying the Clouds</h1></a>
+         		   <a href="single-post.php"><img src="images/blog-img1.jpg" class="img-responsive" alt="Blog"></a>
+         		   <a href="single-post.php"><h1>Flying the Clouds</h1></a>
          		     <div class="post-format">
 						        <span>By <a href="#">Frank Wang</a></span>
 						        <span><i class="fa fa-date"></i> 5 June 2016, Sunday</span>
 					       </div>
          		     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-         		     <a href="single-post.html" class="btn btn-default">Full Article</a>
+         		     <a href="single-post.php" class="btn btn-default">Full Article</a>
          	    </div>
 		    </div>
 
 		    <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="1.6s">
          	  <div class="blog-thumb">
-         		   <a href="single-post.html"><img src="images/blog-img2.jpg" class="img-responsive" alt="Blog"></a>
-         		   <a href="single-post.html"><h1>Walk in the Moon</h1></a>
+         		   <a href="single-post.php"><img src="images/blog-img2.jpg" class="img-responsive" alt="Blog"></a>
+         		   <a href="single-post.php"><h1>Walk in the Moon</h1></a>
          			    <div class="post-format">
 						        <span>By <a href="#">Elon Musk</a></span>
 						        <span><i class="fa fa-date"></i> 4 June 2016, Saturday</span>
 					       </div>
          		     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat sit amet, consectetuer adipiscing elit, sed diam nonumm.</p>
-         		     <a href="single-post.html" class="btn btn-default">Read More</a>
+         		     <a href="single-post.php" class="btn btn-default">Read More</a>
          	  </div>
 		    </div>
 
@@ -149,92 +149,92 @@ http://www.tooplate.com/view/2082-pure-mix
 
 		    <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.9s">
          	  <div class="blog-thumb">
-         		   <a href="single-post.html"><img src="images/blog-img3.jpg" class="img-responsive" alt="Blog"></a>
-         		   <a href="single-post.html"><h1>Swim the Pool</h1></a>
+         		   <a href="single-post.php"><img src="images/blog-img3.jpg" class="img-responsive" alt="Blog"></a>
+         		   <a href="single-post.php"><h1>Swim the Pool</h1></a>
          			    <div class="post-format">
 						        <span>By <a href="#">Jack Ma</a></span>
 						        <span><i class="fa fa-date"></i> 3 June 2016, Friday</span>
 					       </div>
          		     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-         		     <a href="single-post.html" class="btn btn-default">Details</a>
+         		     <a href="single-post.php" class="btn btn-default">Details</a>
          	  </div>
 		    </div>
 
         <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="2.2s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img4.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>Talking the Sun</h1></a>
+               <a href="single-post.php"><img src="images/blog-img4.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>Talking the Sun</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Sandar</a></span>
                     <span><i class="fa fa-date"></i> 2 June 2016, Thursday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                 <a href="single-post.html" class="btn btn-default">Read More</a>
+                 <a href="single-post.php" class="btn btn-default">Read More</a>
             </div>
         </div>
 
         <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="2s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img5.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>View the Mountain</h1></a>
+               <a href="single-post.php"><img src="images/blog-img5.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>View the Mountain</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Cindy</a></span>
                     <span><i class="fa fa-date"></i> 1 June 2016, Wednesday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-                 <a href="single-post.html" class="btn btn-default">Full Story</a>
+                 <a href="single-post.php" class="btn btn-default">Full Story</a>
             </div>
         </div>
 
         <div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="2.4s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img6.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>Mountain</h1></a>
+               <a href="single-post.php"><img src="images/blog-img6.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>Mountain</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Linda</a></span>
                     <span><i class="fa fa-date"></i> 31 May 2016, Tuesday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                 <a href="single-post.html" class="btn btn-default">Read More</a>
+                 <a href="single-post.php" class="btn btn-default">Read More</a>
             </div>
         </div>
 
         <div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="1.5s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img7.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>Cloud</h1></a>
+               <a href="single-post.php"><img src="images/blog-img7.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>Cloud</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Bill Gates</a></span>
                     <span><i class="fa fa-date"></i> 30 May 2016, Monday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                 <a href="single-post.html" class="btn btn-default">Details</a>
+                 <a href="single-post.php" class="btn btn-default">Details</a>
             </div>
         </div>
 
         <div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="1s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img8.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>Blue Sky</h1></a>
+               <a href="single-post.php"><img src="images/blog-img8.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>Blue Sky</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Elon Musk</a></span>
                     <span><i class="fa fa-date"></i> 29 May 2016, Sunday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                 <a href="single-post.html" class="btn btn-default">Read More</a>
+                 <a href="single-post.php" class="btn btn-default">Read More</a>
             </div>
         </div>
 
         <div class="wow fadeInUp col-md-3 col-sm-3" data-wow-delay="1.3s">
             <div class="blog-thumb">
-               <a href="single-post.html"><img src="images/blog-img9.jpg" class="img-responsive" alt="Blog"></a>
-               <a href="single-post.html"><h1>Forest</h1></a>
+               <a href="single-post.php"><img src="images/blog-img9.jpg" class="img-responsive" alt="Blog"></a>
+               <a href="single-post.php"><h1>Forest</h1></a>
                   <div class="post-format">
                     <span>By <a href="#">Jack Ma</a></span>
                     <span><i class="fa fa-date"></i> 28 May 2016, Saturday</span>
                  </div>
                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
-                 <a href="single-post.html" class="btn btn-default">Details</a>
+                 <a href="single-post.php" class="btn btn-default">Details</a>
             </div>
         </div>
         
