@@ -1,14 +1,9 @@
-# Challenge Name
+# Ophishal Mail
 
-This is where you will put your description. Anything between the first and second header sections will be included in the challenge description.
+Find the malicious sender in the email logs.
+Flag format - gigem{id}
 
 ## Hints
-
-- Each hint should be prefaced with a "-"
-- Hints are not required
-- If you do not want to have hints that is fine
-- We normally do not provide hints for challenges at all
-- This example has 5 hints
 
 ## Dev Notes
 
@@ -19,4 +14,4 @@ This section will is where you will write any dev notes if you need. This sectio
 This section will contain the reviewers solution. The flag section below should stay the same. Just replace `gigem{testing_flag}` with the challenge flag.
 
 flag:
-`gigem{testing_flag}`
+`gigem{3508}`
