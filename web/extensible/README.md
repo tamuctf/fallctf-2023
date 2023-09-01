@@ -2,6 +2,8 @@
 
 JSON is so lame and boring. I like to use XML for my requests.
 
+The flag is located at /app/flag.txt
+
 ## Solution
 
 flag:
