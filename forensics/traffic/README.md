@@ -1,6 +1,6 @@
-# Challenge Name
+# Traffic
 
-This is where you will put your description. Anything between the first and second header sections will be included in the challenge description.
+Some ports just aren't secure.
 
 ## Solution
 

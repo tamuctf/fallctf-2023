@@ -6,6 +6,6 @@ clean: .PHONY
     rm -f $(NAME).zip
 
 dist:
-	zip $(NAME).zip $(NAME)
+	zip $(NAME).zip traffic.pcapng
 
 .PHONY:
