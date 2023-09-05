@@ -4,7 +4,7 @@ Some ports just aren't secure.
 
 ## Solution
 
-This section will contain the reviewers solution. The flag section below should stay the same. Just replace `gigem{testing_flag}` with the challenge flag.
+Opening the pcap with wireshark and string searching for `gigem` reveals the flag as an url encoded http parameter.
 
 flag:
 `gigem{4ttp1sN0tS3cur3}`
