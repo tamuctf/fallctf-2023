@@ -30,7 +30,6 @@ DOCKER_GLOBAL := --context $(DOCKER_CONTEXT)
 DOCKER_RUNTIME := --memory=128m --cpus=0.2 --restart=always
 
 clean: .PHONY
-	rm -f $(NAME) $(NAME).zip
 	docker container rm -f $(NAME)$(SUFFIX)
 
 build: Dockerfile
