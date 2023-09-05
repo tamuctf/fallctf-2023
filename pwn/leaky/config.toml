@@ -24,12 +24,8 @@ points = 500
 # format: [services.<service-name>] -- be descriptive
 # port: internal docker port (see CPORTS in makefile)
 # type: nginx type (site or stream)
-[services.dashboard]
+[services.pwn]
 port = 1337
-type = "site"
-
-[services.uart-0]
-port = 1338
 type = "stream"
 
 [nginx]
@@ -37,5 +33,5 @@ type = "stream"
 #   connect to instance with least connections
 # ip_hash := multi-service, ensure
 #   contestant connects to same instance
-balance_method = "ip_hash"
+balance_method = "least_conn"
 instances = 5

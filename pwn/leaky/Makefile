@@ -47,6 +47,7 @@ $(NAME): $(NAME).c
 
 clean: .PHONY
 	rm -f $(NAME) $(NAME).zip
+	docker container rm -f $(NAME)$(SUFFIX)
 
 build: Dockerfile $(NAME)
 	docker $(DOCKER_GLOBAL) build -t $(NAME) \
@@ -60,7 +61,7 @@ run:
 
 extract:
 	$(eval id := $(shell docker create $(NAME)))
-	docker cp $(id):/$(NAME) - | tar xv $(NAME)
+	docker cp $(id):/pwn/$(NAME) - | tar xv $(NAME)
 	docker rm -v $(id)
 
 dist: extract
