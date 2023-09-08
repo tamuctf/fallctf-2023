@@ -52,6 +52,6 @@ run:
 	docker $(DOCKER_GLOBAL) run $(DOCKER_RUNTIME) -d --name $(NAME)$(SUFFIX) $(ports) $(REGISTRY)$(NAME)
 
 dist:
-	zip -r $(NAME).zip src/ Dockerfile nginx.conf
+	zip -r $(NAME).zip src/ Dockerfile default.conf
 
 .PHONY:
