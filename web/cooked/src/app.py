@@ -21,8 +21,6 @@ def index():
         resp.set_cookie('user', b64encode(bytes('{"username":"guest","uid":69}', 'utf-8')))
         return resp
 
-    print(cookie['username'])
-    print(cookie['uid'])
     if cookie['username'] == 'admin' and cookie['uid'] == 0:
         return render_template('flag.html')
 
