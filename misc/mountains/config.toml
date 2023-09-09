@@ -4,9 +4,3 @@ deploy = true
 # true if challenge needs containers hosted
 containers = false
 # health_check = false
-
-# ============================================================
-
-[ctfd]
-points = 500
-
