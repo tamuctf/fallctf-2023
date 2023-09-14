@@ -1,5 +1,5 @@
 # deployment vars
-NAME := zen
+NAME := enlightenment
 
 all: $(NAME)
 
