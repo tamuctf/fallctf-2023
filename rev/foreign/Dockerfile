@@ -1,4 +1,4 @@
-FROM rust:debian-slim
+FROM rust:slim-buster
 
 ARG name
 
