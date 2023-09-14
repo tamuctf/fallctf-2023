@@ -1,0 +1,4 @@
+[target.s390x-unknown-linux-gnu]
+rustflags = [
+  "-C", "linker=s390x-linux-gnu-gcc"
+]
