@@ -2,7 +2,8 @@ FROM rust:debian-slim
 
 ARG name
 
-RUN rustup target add
+RUN apt update; apt install crossbuild-essential-s390x-linux-gnu -y
+RUN rustup target add s390x-unknown-linux-gnu
 
 ADD src /$name/src
 ADD Cargo.toml /$name/Cargo.toml
