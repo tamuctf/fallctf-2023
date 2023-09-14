@@ -15,7 +15,7 @@ build: Dockerfile src Cargo.toml
 
 extract: build
 	$(eval id := $(shell docker create $(NAME)))
-	docker cp $(id):/$(NAME)/target/release/zen - | tar xv $(NAME)
+	docker cp $(id):/$(NAME)/target/release/$(NAME) - | tar xv $(NAME)
 	docker rm -v $(id)
 
 $(NAME): extract
