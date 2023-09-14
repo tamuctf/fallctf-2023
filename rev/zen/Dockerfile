@@ -1,12 +1,12 @@
-FROM debian:buster-slim as build
+FROM rust:alpine
 
 ARG name
 
-RUN apt-get update -y; apt-get install build-essential libssl-dev curl -y
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+RUN apk update
+RUN apk add --no-cache musl-dev
 
 ADD src /$name/src
 ADD Cargo.toml /$name/Cargo.toml
 
 WORKDIR /$name
-RUN /root/.cargo/bin/cargo build --release
+RUN cargo build --release
