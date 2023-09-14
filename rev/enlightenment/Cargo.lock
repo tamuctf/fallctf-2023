@@ -93,6 +93,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "enlightenment"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "hex",
+ "hex-literal",
+ "rand",
+ "rand_chacha",
+ "reqwest",
+ "tokio",
+]
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1064,17 +1077,4 @@ checksum = "524e57b2c537c0f9b1e69f1965311ec12182b4122e45035b1508cd24d2adadb1"
 dependencies = [
  "cfg-if",
  "windows-sys",
-]
-
-[[package]]
-name = "zen"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "hex",
- "hex-literal",
- "rand",
- "rand_chacha",
- "reqwest",
- "tokio",
 ]
