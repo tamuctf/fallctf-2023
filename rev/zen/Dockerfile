@@ -9,4 +9,4 @@ ADD src /$name/src
 ADD Cargo.toml /$name/Cargo.toml
 
 WORKDIR /$name
-RUN cargo build --release
+RUN /root/.cargo/bin/cargo build --release
