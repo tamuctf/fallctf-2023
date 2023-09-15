@@ -14,3 +14,4 @@ ADD flag.txt /$name/flag.txt
 
 WORKDIR /$name
 RUN cargo build --release
+RUN mv /$name/target/thumbv7m-none-eabi/release/$name /$name/$name.elf

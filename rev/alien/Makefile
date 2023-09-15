@@ -7,7 +7,7 @@ clean: .PHONY
 	rm -f $(NAME) $(NAME).zip
 	docker container rm -f $(NAME)$(SUFFIX)
 
-build: Dockerfile src Cargo.toml
+build: Dockerfile Cargo.toml alien/ .cargo lm3s6965-uart flag.txt
 	docker $(DOCKER_GLOBAL) build -t $(NAME) \
 		--build-arg name=$(NAME) \
 		--build-arg port=$(PWN_CPORT) \
@@ -15,7 +15,7 @@ build: Dockerfile src Cargo.toml
 
 extract: build
 	$(eval id := $(shell docker create $(NAME)))
-	docker cp $(id):/$(NAME)/target/thumbv7m-none-eabi/release/$(NAME) - | tar xv $(NAME)
+	docker cp $(id):/$(NAME)/$(NAME).elf - | tar xv $(NAME)
 	docker rm -v $(id)
 
 $(NAME): extract
