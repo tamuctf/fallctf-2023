@@ -18,7 +18,7 @@ extract: build
 	docker cp $(id):/$(NAME)/$(NAME).elf - | tar xv $(NAME)
 	docker rm -v $(id)
 
-$(NAME): extract
+$(NAME).elf: extract
 
 dist: extract
 
