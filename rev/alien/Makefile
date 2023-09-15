@@ -1,7 +1,7 @@
 # deployment vars
 NAME := alien
 
-all: $(NAME)
+all: $(NAME).elf
 
 clean: .PHONY
 	rm -f $(NAME) $(NAME).zip
@@ -15,7 +15,7 @@ build: Dockerfile Cargo.toml alien/ .cargo lm3s6965-uart flag.txt
 
 extract: build
 	$(eval id := $(shell docker create $(NAME)))
-	docker cp $(id):/$(NAME)/$(NAME).elf - | tar xv $(NAME)
+	docker cp $(id):/$(NAME)/$(NAME).elf - | tar xv $(NAME).elf
 	docker rm -v $(id)
 
 $(NAME).elf: extract
