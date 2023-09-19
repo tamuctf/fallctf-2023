@@ -4,8 +4,7 @@ NAME := alien
 all: $(NAME).elf
 
 clean: .PHONY
-	rm -f $(NAME) $(NAME).zip
-	docker container rm -f $(NAME)$(SUFFIX)
+	rm -f $(NAME).elf $(NAME).zip
 
 build: Dockerfile Cargo.toml alien/ .cargo lm3s6965-uart flag.txt
 	docker $(DOCKER_GLOBAL) build -t $(NAME) \
