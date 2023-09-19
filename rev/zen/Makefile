@@ -5,12 +5,10 @@ all: $(NAME)
 
 clean: .PHONY
 	rm -f $(NAME) $(NAME).zip
-	docker container rm -f $(NAME)$(SUFFIX)
 
 build: Dockerfile src Cargo.toml
 	docker $(DOCKER_GLOBAL) build -t $(NAME) \
 		--build-arg name=$(NAME) \
-		--build-arg port=$(PWN_CPORT) \
 		.
 
 extract: build
@@ -21,5 +19,6 @@ extract: build
 $(NAME): extract
 
 dist: extract
+	zip $(NAME).zip $(NAME)
 
 .PHONY:

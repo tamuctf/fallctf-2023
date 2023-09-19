@@ -1,4 +1,4 @@
-# zen
+# Zen
 
 Sometimes, the best thing to do is sit back and listen within.
 
@@ -21,3 +21,10 @@ Hint 2
 There's more than one way to _listen_ to yourself.
 
 </details>
+
+## Solution
+
+
+
+flag:
+`gigem{z3nfu1_4nd_in7r0sp3ct1v3}`
