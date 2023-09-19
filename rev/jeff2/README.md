@@ -1,22 +1,13 @@
 # jeff2
 
-
-
-## Hints
-
-- Each hint should be prefaced with a "-"
-- Hints are not required
-- If you do not want to have hints that is fine
-- We normally do not provide hints for challenges at all
-- This example has 5 hints
+I really wanted to know if I had five cookies and zero friends, how many cookies I could give to each friend, but my program crashed before I could get an answer! Could you recover what I was working with before the program crashed?
 
 ## Dev Notes
-
-This section will is where you will write any dev notes if you need. This section should include any details about how to start and stop the challenge as well as what files are provided to the competitors and any other information need for the review process
+Please ensure that the zip includes both the compiled binary and the core dump binary.
 
 ## Solution
 
-This section will contain the reviewers solution. The flag section below should stay the same. Just replace `gigem{testing_flag}` with the challenge flag.
+
 
 flag:
-`gigem{testing_flag}`
+`gigem{c0re_dump3d_my_fl4g1x1}`
