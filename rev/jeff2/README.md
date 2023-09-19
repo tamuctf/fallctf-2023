@@ -1,13 +1,14 @@
 # jeff2
 
-I really wanted to know if I had five cookies and zero friends, how many cookies I could give to each friend, but my program crashed before I could get an answer! Could you recover what I was working with before the program crashed?
+I was so close to solving the challenge when I found a text file with the flag, I implemented my decipher algorithm but was sidetracked by a very urgent question: If I had five cookies and zero friends, how many cookies could I give to each friend? However, my program crashed before I could get an answer! Please help me retrieve and decipher the flag. 
 
 ## Dev Notes
-Please ensure that the zip includes both the compiled binary and the core dump binary.
+
+Ensure that the zip includes both the program binary and the core dump. 
 
 ## Solution
 
-
+solution
 
 flag:
 `gigem{c0re_dump3d_my_fl4g1x1}`

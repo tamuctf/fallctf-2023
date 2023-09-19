@@ -6,6 +6,6 @@ clean: .PHONY
 	rm -f $(NAME).zip
 
 dist:
-	zip $(NAME).zip $(NAME) core.jeff2.19956
+	zip $(NAME).zip $(NAME) core.jeff2.*
 
 .PHONY:
