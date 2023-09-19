@@ -1,7 +1,6 @@
 FROM rust:slim-buster
 
 ARG name
-ARG port
 
 RUN apt update; apt install -y gcc-arm-none-eabi
 RUN rustup target add thumbv7m-none-eabi

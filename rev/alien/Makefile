@@ -10,7 +10,6 @@ clean: .PHONY
 build: Dockerfile Cargo.toml alien/ .cargo lm3s6965-uart flag.txt
 	docker $(DOCKER_GLOBAL) build -t $(NAME) \
 		--build-arg name=$(NAME) \
-		--build-arg port=$(PWN_CPORT) \
 		.
 
 extract: build
@@ -21,5 +20,6 @@ extract: build
 $(NAME).elf: extract
 
 dist: extract
+	zip $(NAME).zip $(NAME).elf
 
 .PHONY:
