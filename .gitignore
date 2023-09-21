@@ -2,3 +2,4 @@ data/
 target/
 secrets.toml
 venv/
+.idea/
