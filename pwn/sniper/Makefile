@@ -39,7 +39,7 @@ DOCKER_RUNTIME := --memory=128m --cpus=0.2 --read-only --restart=always
 
 # build vars
 CC := $(or $(CC),gcc)
-CFLAGS := -O0 -fno-stack-protector -no-pie
+CFLAGS := -fno-stack-protector -no-pie -Wl,-z,norelro
 
 all: $(NAME)
 
@@ -63,9 +63,10 @@ run:
 extract:
 	$(eval id := $(shell docker create $(NAME)))
 	docker cp $(id):/pwn/$(NAME) - | tar xv $(NAME)
+	docker cp $(id):/lib/x86_64-linux-gnu/libc-2.28.so libc.so.6
 	docker rm -v $(id)
 
 dist: extract
-	zip $(NAME).zip $(NAME) $(NAME).c solver-template.py
+	zip $(NAME).zip $(NAME) $(NAME).c solver-template.py libc.so.6
 
 .PHONY:
