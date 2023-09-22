@@ -41,8 +41,10 @@ DOCKER_RUNTIME := --memory=128m --cpus=0.2 --read-only --restart=always
 CC := $(or $(CC),gcc)
 CFLAGS := -O0 -fno-stack-protector -no-pie
 
+all: $(NAME)
+
 $(NAME): 
-	$(CC) $(CFLAGS) $(NAME).c
+	$(CC) $(CFLAGS) $(NAME).c -o $(NAME)
 
 clean: .PHONY
 	rm -f $(NAME) $(NAME).zip

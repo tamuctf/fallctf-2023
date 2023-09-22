@@ -31,5 +31,6 @@ void vuln() {
 
 int main() {
     init();
+    puts("hello!");
     vuln();
 }
