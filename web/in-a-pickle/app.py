@@ -17,6 +17,6 @@ def index():
 def vuln():
     data = base64.urlsafe_b64decode(request.form['pickled'])
     deserialized = pickle.loads(data)
-    return 0
+    return "success"
 
 app.run('0.0.0.0',os.environ['PORT'])
