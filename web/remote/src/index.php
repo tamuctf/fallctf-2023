@@ -49,11 +49,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       header('Location: /index.php?message=Image upload failed&status=fail');
     }
   } else if(isset($_REQUEST['url'])) {
-    // Upload image via URL
-    // Check for valid file extension before sanatize
-    // Sanatization could make upload unsafe
-    //    Check that no contain: .html, .htm, .shtml, .dhtml, .xhtml, .php, .phtml, .php3, .php4, .php5, .phps, .js, .cjs, .mjs, .css 
-    //    After filtering of invalid chars it could contain any of those lol
     if(!preg_match("/(htm)|(php)|(js)|(css)/", $_REQUEST['url'])) {
       $url = filter_var($_REQUEST['url'], FILTER_SANITIZE_URL);
       if(filter_var($url, FILTER_VALIDATE_URL)) {
