@@ -2,6 +2,8 @@
 
 I heard the one-time pad is unbreakable, so I used it twice to encrypt a picture of the flag for extra security. Can you figure out the original flag?
 
+Author: Nathan
+
 ## Solution
 
 We can see from the given `gen_image.py` script exactly how the given images `c1.png` and `c2.png` are generated. 
