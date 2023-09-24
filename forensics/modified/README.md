@@ -2,6 +2,8 @@
 
 What's different?
 
+Author: Noam
+
 ## Solution
 
 Since the challenge description states "What's different", the challenge likely requires us to find which file is different from the rest. In the given .zip file, we have over 1000 .jpeg files, as well as a file titled 'hashes.txt', which has the result of the command 'md5sum' ran on all of the files. As such, the challenge seems to imply that one of the 1000+ images has an incorrect md5sum listed in 'hashes.txt', and the challenge will be solved by identifying this file.

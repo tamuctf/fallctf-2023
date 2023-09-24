@@ -2,6 +2,8 @@
 
 [ROP gadgets](https://ir0nstone.gitbook.io/notes/types/stack/return-oriented-programming) allow you to control function arguments. Can you get the flag?
 
+Author: Nathan
+
 ## Solution
 
 The source code provides us with some nice gadgets (`pop rdi`, `pop rsi`, `pop rdx`). These can be used to force the binary to call `check()` and `win()`. For `win` to work, `good` needs to be set to `1`. To set `good` to the correct value, `check` must be called with the correct parameters. It is possible to set the parameters by using the `rdi`, `rsi`, and `rdx` gadgets. The script I used to perform this attack is as follows.

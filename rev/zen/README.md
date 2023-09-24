@@ -2,6 +2,8 @@
 
 Sometimes, the best thing to do is sit back and listen within.
 
+Author: Addison
+
 ## Hints
 
 <details>

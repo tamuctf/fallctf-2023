@@ -2,6 +2,8 @@
 
 Alright, I think I fixed all of the bugs in the website. It's time to put this site into production, and I've decided to test with an Nginx reverse proxy. Hopefully it works as intended.
 
+Author: Bode
+
 ## Solution
 
 I googled "nginx misconfiguration reverse proxy" and clicked the first result: https://blog.detectify.com/2020/11/10/common-nginx-misconfigurations/. Under "Off-By-Slash", we see our provided config file has the same flaw:

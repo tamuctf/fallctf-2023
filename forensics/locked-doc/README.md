@@ -2,6 +2,8 @@
 
 I have received a top secret doc containing information about a flag. Could you crack the lock?
 
+Author: Emmie
+
 ## Solution
 
 Since the docx file was password protected I used office to john to get the hash.

@@ -8,6 +8,8 @@ Patch notes:
 
 Note: The flag is located in `/tmp/`. You can find the file yourself.
 
+Author: Bode
+
 ## Solution
 
 In the `README.md` file as well as the given source code in `index.php`, we can see that there is a feature which allows upload with URL. In the source code in `index.php`, we can see that before uploading the file from the URL, the URL is filtered with PHP functions `preg_match` and `filter_var`. Due to the order of the filtering functions being used, we can bypass the filter by using a character which would normally be filtered by `filter_var` inside of the file extension, which will allow the file name to bypass both filters by first tricking `preg_match` and leaving us with a completed file name after `filter_var`. 

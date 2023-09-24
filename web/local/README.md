@@ -4,6 +4,8 @@ My parents wanted me to make them a web server where they can upload all of the 
 
 Note: The flag is located at `/tmp/flag.txt`
 
+Author: Bode
+
 ## Solution
 
 The vulnerability shown is local file inclusion. In index.php you can clearly see that it's reading in a file and it's using php's `preg_replace` with a regex to avoid allowing people to traverse up the directory. However, the regex can be avoided with a slightly more obfuscated payload.  

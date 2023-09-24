@@ -2,6 +2,8 @@
 
 Instead of returning to a single win function, can you chain multiple functions together?
 
+Author: Nathan
+
 ## Solution
 
 We can see in the source code of the binary that function `gets` is called on a variable `buf` of size 8. Because `gets` does not have a limit on the number of characters which can be entered, we can enter 8 characters (to fill variable `buf`) and then another 8 characters (to fill the base pointer), and then the next characters will overwrite the stack pointer. 

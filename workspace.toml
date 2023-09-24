@@ -5,11 +5,11 @@ ctf-name = "fallctf-2023"
 base-chal-port = 55000
 
 [nginx]
-domain = "ctf.cybr.club"
+domain = "tamuctf.com"
 become = "root"
 
 [ctfd]
-url = "ctf.cybr.club"
+url = "http://192.168.200.3:8000"
 scoring-type = "dynamic"
 # this is only for dynamic
 points = 500
@@ -19,7 +19,7 @@ minimum = 100
 [virtual-machines]
 
 [virtual-machines.settings]
-vnetif = "vboxnet0"
+vnetif = "vboxnet2"
 ipv4_range = "192.168.200.0/24"
 install-path = "/home/vagrantboxes/"
 become = "vagrantboxes"

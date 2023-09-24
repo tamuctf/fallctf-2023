@@ -2,6 +2,8 @@
 
 Run the binary. That's it.
 
+Author: Addison
+
 ## Hints
 
 <details>

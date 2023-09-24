@@ -2,6 +2,8 @@
 
 Can you control variables that you don't own?
 
+Author: Nathan
+
 ## Solution
 
 The program allows a buffer overflow into a variable called `magic`. To get the flag, the value of magic must be set to `0x69696969`. The script to exploit this flaw is below.

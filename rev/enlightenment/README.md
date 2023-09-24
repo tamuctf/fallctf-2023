@@ -3,6 +3,8 @@
 You should achieve zen before you reach for enlightenment.
 When you do, remember: sometimes, we must change our surroundings before we can achieve true inner peace.
 
+Author: Addison
+
 ## Hints
 
 <details>

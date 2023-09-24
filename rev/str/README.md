@@ -2,6 +2,8 @@
 
 We have a binary that has a flag in it! How do we tell what strings exist in it?
 
+Author: Stella
+
 ## Solution
 
 I first ran this command "strings str | grep gigeme" and it only gave the first part of the flag. I then looked at some of the lines under with this command "strings str | grep -A 4 gig" and got the whole flag.

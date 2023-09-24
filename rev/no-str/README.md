@@ -2,6 +2,8 @@
 
 no str. just rev.
 
+Author: Bode
+
 ## Solution
 
 The challenge gives us a binary, whcih when we run, asks us for a password. Most likely, the goal of this challenge is going to be to obtain the password required in the binary.

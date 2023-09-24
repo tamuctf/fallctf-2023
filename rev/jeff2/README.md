@@ -4,6 +4,8 @@ I was so close to solving the challenge when I found a text file with the flag, 
 
 Note: You do not need to have completed jeff1 to do jeff2! However, make sure you have the tools mentioned in jeff1: [gdb](https://www.sourceware.org/gdb/) and its very informative extension [gef](https://hugsy.github.io/gef/). You should additionally consider using [ghidra](https://ghidra-sre.org/)
 
+Author: Stella
+
 ## Dev Notes
 
 Ensure that the zip includes both the program binary and the core dump. 

@@ -2,6 +2,8 @@
 
 It's in there somewhere.
 
+Author: Noam
+
 ## Solution
 
 I was able to grab the flag by running exiftool on the image. The flag is in the Description section of the file meta data.

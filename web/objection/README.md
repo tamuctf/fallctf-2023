@@ -2,6 +2,8 @@
 
 I object to your objectification of my PHP objects.
 
+Author: Bode
+
 ## Solution
 
 By looking at index.php you can see the code setting user to none and uid to 420 as well as it wanting to be set to admin and the uid being 0.

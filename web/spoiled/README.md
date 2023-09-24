@@ -2,6 +2,8 @@
 
 I think my website might be past its expiration date. Maybe its time to get a new one.
 
+Author: Bode
+
 ## Solution
 
 We can see that the website is running using PHP. When sending a web request to a page, we can see one of the response headers states:

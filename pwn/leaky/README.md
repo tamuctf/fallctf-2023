@@ -2,6 +2,8 @@
 
 Can you get the binary to print out the flag?
 
+Author: Nathan
+
 ## Solution
 
 Reviewing the source code shows two important lines.

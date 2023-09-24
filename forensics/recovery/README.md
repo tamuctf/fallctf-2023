@@ -5,6 +5,8 @@ Empty?
 Download the file here:
 https://drive.google.com/file/d/1Mu4JaTLDJNnZmD_5etS2LJ1pBBUaYL8V/view?usp=sharing
 
+Author: Noam
+
 ## Solution
 
 The file type vhd is a virtual hard disk, which a forensic capture of a disk.

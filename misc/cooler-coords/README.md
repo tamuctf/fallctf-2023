@@ -5,6 +5,8 @@ We found Link's notebook on his latest journey to find Princess Zelda. The last 
 flag format:
 gigem{Name_Shrine}
 
+Author: Emmie
+
 ## Solution
 
 Due to the description of the challenge I figured it was asking for the shrine location at the (x, y, z) coordinates in the game of Zelda.

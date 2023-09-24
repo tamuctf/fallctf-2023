@@ -2,6 +2,8 @@
 
 You can't get in my zip file. Right...
 
+Author: Noam
+
 ## Solution
 
 The zip folder is password protected preventing opening. Cracking the password is easy using `zip2john` to create the hash.

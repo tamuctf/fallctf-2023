@@ -2,6 +2,8 @@
 
 Oh dear, it seems I'm taking in arbitrary input with the pickle library. Whatever could go wrong?
 
+Author: Victor
+
 ## Solution
 
 This appliction accepts arbitrarally pickled data at `/vuln`. This means we can execute python code on the server by generating a malicious payload. I used a script to auto generate my payload as shown below.

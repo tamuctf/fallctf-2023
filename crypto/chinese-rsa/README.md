@@ -12,6 +12,8 @@ n3 = 1076853053248773047366157637716823489548111430487584892892366710220262883
 e = 3
 ```
 
+Author: Victor
+
 ## Solution
 
 Use [Hastad's broadcast attack](https://en.wikipedia.org/wiki/Coppersmith%27s_attack#H%C3%A5stad's_broadcast_attack).

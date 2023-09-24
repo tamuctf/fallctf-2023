@@ -6,6 +6,8 @@ We found this ciphertext while buying baguettes in France, but we only know that
 rugsx{keh_lzohsqr_ccugwyml_qsmlzpzgs}
 ```
 
+Author: Nathan
+
 Can you figure out what it means?
 
 ## Solution
