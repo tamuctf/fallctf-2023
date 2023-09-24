@@ -2,7 +2,7 @@
 
 Find the malicious sender in the email logs.
 
-Flag format - gigem{id}
+Flag format: `gigem{id}`
 
 Author: Noam
 
