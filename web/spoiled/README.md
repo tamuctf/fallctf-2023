@@ -1,6 +1,6 @@
 # Spoiled
 
-I think my website might be past its expiration date. Maybe its time to get a new one.
+I think my website might be past its expiration date. Maybe it's time to get a new one.
 
 Author: Bode
 
