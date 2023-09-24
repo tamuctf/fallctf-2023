@@ -16,7 +16,7 @@ build: Dockerfile
 		--build-arg name=$(NAME) \
 		.
 
-extract:
+extract: build
 	$(eval id := $(shell docker create $(NAME)))
 	docker cp $(id):/tmp/$(NAME) .
 	docker rm -v $(id)

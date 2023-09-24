@@ -11,7 +11,7 @@ build: Dockerfile Cargo.toml alien/ .cargo lm3s6965-uart flag.txt
 		--build-arg name=$(NAME) \
 		.
 
-extract: 
+extract: build 
 	$(eval id := $(shell docker create $(NAME)))
 	docker cp $(id):/$(NAME)/$(NAME).elf - | tar xv $(NAME).elf
 	docker rm -v $(id)

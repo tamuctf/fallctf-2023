@@ -11,7 +11,7 @@ build: Dockerfile src Cargo.toml
 		--build-arg name=$(NAME) \
 		.
 
-extract:
+extract: build
 	$(eval id := $(shell docker create $(NAME)))
 	docker cp $(id):/$(NAME)/target/release/$(NAME) - | tar xv $(NAME)
 	docker rm -v $(id)

@@ -2,7 +2,10 @@
 
 In 1950, Richard W. Hamming invented [Hamming codes](https://en.wikipedia.org/wiki/Hamming_code) as a way of automatically correcting errors introduced by punched card readers. Hamming codes can detect one bit and two bit errors, or correct one-bit errors without detection of uncorrection errors. Now it's your turn to decode these codes.
 
+Author: Joseph
+
 ## Hint
+
 Be mindful of implementation quirks when using online solvers.
 
 ## Solution
