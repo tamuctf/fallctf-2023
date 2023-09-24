@@ -2,9 +2,9 @@
 
 Took this pretty cool picture on a mountain, can you find where this is?
 
-Flag should be name of the mountain followed by its elevation in meters.
-Format:
-`gigem{name_altitude}`
+The flag should be name of the mountain followed by its elevation in meters as an integer.
+
+Format: `gigem{name_altitude}`
 
 Author: Emmie
 
