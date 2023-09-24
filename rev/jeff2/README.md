@@ -1,8 +1,8 @@
 # jeff2
 
-I was so close to solving the challenge when I found a text file with the flag, I implemented my decipher algorithm but was sidetracked by a very urgent question: If I had five cookies and zero friends, how many cookies could I give to each friend? However, my program crashed before I could get an answer! Please help me retrieve and decipher the flag.
+I was so close to solving a challenge when I found a text file with the flag. I implemented my decipher algorithm but was sidetracked by a very urgent question: If I had five cookies and zero friends, how many cookies could I give to each friend? However, my program crashed before I could get an answer! Please help me retrieve and decipher the flag.
 
-Note: You do not need to have completed jeff1 to do jeff2! However, make sure you have the tools mentioned in jeff1: [gdb](https://www.sourceware.org/gdb/) and its very informative extension [gef](https://hugsy.github.io/gef/). You should additionally consider using [ghidra](https://ghidra-sre.org/)
+Note: You do not need to have completed jeff1 to do jeff2! However, make sure you have the tools mentioned in jeff1: [gdb](https://www.sourceware.org/gdb/) and its very informative extension [gef](https://hugsy.github.io/gef/). You should additionally consider using [ghidra](https://ghidra-sre.org/).
 
 Author: Stella
 
