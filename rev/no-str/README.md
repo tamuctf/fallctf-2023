@@ -6,7 +6,7 @@ Author: Bode
 
 ## Solution
 
-The challenge gives us a binary, whcih when we run, asks us for a password. Most likely, the goal of this challenge is going to be to obtain the password required in the binary.
+The challenge gives us a binary, which when we run, asks us for a password. Most likely, the goal of this challenge is going to be to obtain the password required in the binary.
 If we try to run the binary "strings", which returns all human-readable strings in the binary, we do not get any results which look like either a flag, or a password. As such, we need to reverse engineer the binary to understand how its code is working.
 
 Using Ghidra, we can see that the binary adds several bytes into the stack, and then runs "puts" to prompt for the password; the binary then prompts input with "fgets", and then runs "strncmp" to compare the entered result with the hex bytes entered into the stack. As such, if we convert the characters being moved into the stack into ASCII and combine them, we should get the password required for the binary.
