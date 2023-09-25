@@ -1,4 +1,9 @@
+#include <stdio.h>
 int main() {
-    char string[] = "gigem{literally_just_strings}";
+    char* s1 = "gigem{li";
+    char* s2 = "terally_";
+    char* s3 = "just_str";
+    char* s4 = "ings}";
+    puts("nothing to see here!");
     return 0;
 }
