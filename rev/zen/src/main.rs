@@ -4,7 +4,7 @@ use rand::{Rng, SeedableRng};
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
-    tokio::time::sleep(Duration::from_secs(120)).await;
+    tokio::time::sleep(Duration::from_secs(10)).await;
 
     let mut rng = rand_chacha::ChaChaRng::from_seed(hex!("00edcdb3f59cec20deb55ef7652c276904afe71554d11f18898ced1475fcb003"));
     let mut filename = [0u8; 64];
