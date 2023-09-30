@@ -17,6 +17,7 @@ if(empty($_COOKIE['session']))
     die();
 }
 
-  echo nl2br(file_get_contents('index.php'));
-  echo nl2br(file_get_contents('Session.php'));
+unserialize(base64_decode($_COOKIE['session']));
+echo nl2br(file_get_contents('index.php'));
+echo nl2br(file_get_contents('Session.php'));
 ?>
